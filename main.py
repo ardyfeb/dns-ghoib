@@ -99,6 +99,7 @@ def spoof(target_ip, gateway_ip):
 
         except KeyboardInterrupt:
             click.secho('\nGot exit signal, restoring affected arp table', fg='bright_black')
+            restore(target_ip, gateway_ip)
             exit()
 
 
