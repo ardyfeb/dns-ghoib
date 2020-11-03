@@ -1,0 +1,6 @@
+# compiled
+__pycache__/
+*.py[cod]
+
+# Environment
+venv
